@@ -14,3 +14,19 @@ body {
     font-size: 32px !important;
     color: var(--body-text-color) !important;
 }
+
+a {
+    text-decoration: none;
+}
+
+.site-logo {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    color: var(--body-text-color) ;
+}
+
+.nav-link {
+    color: var(--primary-color);
+}
