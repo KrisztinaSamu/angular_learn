@@ -14,6 +14,7 @@ import { TermsAndConditionComponent } from './pages/terms-and-condition/terms-an
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
 import { PostCardComponent } from './layouts/post-card/post-card.component';
+import { CommentFormComponent } from './comments/comment-form/comment-form.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { PostCardComponent } from './layouts/post-card/post-card.component';
     TermsAndConditionComponent,
     ContactUsComponent,
     SubscriptionFormComponent,
-    PostCardComponent
+    PostCardComponent,
+    CommentFormComponent
   ],
   imports: [
     BrowserModule,
