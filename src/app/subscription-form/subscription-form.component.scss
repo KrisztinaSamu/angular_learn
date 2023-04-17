@@ -3,21 +3,7 @@
   width: 1200px;
 }
 
-input[type="text"],
-input[type="email"],
-.btn-sub {
-  font-size: 13px;
-  width: 100%;
-}
 
-input[type="text"],
-input[type="email"] {
-  height: 60px;
-  padding-left: 20px;
-}
-
-.btn-sub {
-  height: 58px;
-  border: none;
-  background-color: var(--primary-color);
+.subs-text {
+  width: 500px;
 }

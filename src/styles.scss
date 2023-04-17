@@ -39,3 +39,23 @@ a {
 .bg-theme {
     background-color: var(--primary-color);
 }
+
+input[type="text"],
+input[type="email"],
+.btn-sub {
+  font-size: 13px;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 60px;
+  padding-left: 20px;
+}
+
+.btn-theme {
+  height: 58px;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
